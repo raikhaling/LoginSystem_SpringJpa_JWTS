@@ -1,12 +1,15 @@
 package com.khaling.springsecurityjwt2.utils;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 import java.security.KeyPair;
 import java.security.interfaces.RSAPrivateCrtKey;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 
+
+@Component
 @Data
 public class RSAKeyProperties {
     private RSAPublicKey publicKey;

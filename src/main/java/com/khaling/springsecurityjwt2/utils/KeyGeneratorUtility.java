@@ -3,7 +3,7 @@ package com.khaling.springsecurityjwt2.utils;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 
-public class KeyGeneratorUtility {
+public class   KeyGeneratorUtility {
     public static KeyPair generateRsaKey(){
         KeyPair keyPair;
         try {
